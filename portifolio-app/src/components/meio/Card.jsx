@@ -5,7 +5,7 @@ export default function Card({ title, description, imageUrl }) {
         <img
           src={imageUrl}
           alt={"Imagem"}
-          className="w-full h-150 object-cover"
+          className="w-full h-140 object-cover"
         />
       ) : (
         <div className="w-full h-40 bg-gray-200 flex items-center justify-center text-gray-500"></div>
