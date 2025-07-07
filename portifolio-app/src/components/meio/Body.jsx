@@ -8,7 +8,7 @@ export default function Body() {
     <div className="w-full h-full  text-center">
       <div
         className=" pt-15
-       text-4xl grid gap-6 font-mono"
+       text-4xl grid gap-6 font-mono text-white"
       >
         <h2>Bem-vindo ao Meu Portifólio</h2>
 

@@ -24,7 +24,7 @@ export default function Footer() {
     <div className="pt-15 pb-15">
       <form
         onSubmit={handleSubmit}
-        className="bg-slate-400 shadow-md rounded-lg p-6 ml-130 h-140 w-200"
+        className="bg-white shadow-md rounded-lg p-6 ml-130 h-140 w-200"
       >
         <h2 className="text-2xl font-bold mb-4 text-center">
           Entre em Contato
