@@ -1,9 +1,9 @@
 export default function Stacks() {
   return (
-    <div className="bg-blue-500 min-h-150 p-10">
+    <div className=" min-h-150 p-10">
       <div className="flex flex-col md:flex-row gap-10 justify-center">
         {/* Habilidades */}
-        <div className="bg-amber-200 w-full md:w-[700px] p-10 rounded-lg shadow-md text-center text-2xl">
+        <div className="bg-white w-full md:w-[700px] p-10 rounded-lg shadow-md text-center text-2xl">
           <h2 className="font-bold mb-4 underline text-3xl">Habilidades</h2>
           <div className="flex flex-col md:flex-row gap-6 text-left">
             {/* Soft Skills */}
@@ -37,7 +37,7 @@ export default function Stacks() {
         </div>
 
         {/* Projetos */}
-        <div className="bg-amber-500 w-full md:w-[600px] p-10 rounded-lg shadow-md text-center text-2xl">
+        <div className="bg-white w-full md:w-[600px] p-10 rounded-lg shadow-md text-center text-2xl">
           <h3 className="font-bold mb-4 underline text-3xl">PROJETOS</h3>
           <ul className="list-disc list-inside text-left">
             <li>

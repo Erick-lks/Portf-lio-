@@ -21,7 +21,7 @@ export default function Footer() {
   };
 
   return (
-    <div className="bg-pink-300 pt-15 pb-15">
+    <div className="pt-15 pb-15">
       <form
         onSubmit={handleSubmit}
         className="bg-slate-400 shadow-md rounded-lg p-6 ml-130 h-140 w-200"

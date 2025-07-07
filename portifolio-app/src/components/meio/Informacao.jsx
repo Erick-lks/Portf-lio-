@@ -42,7 +42,7 @@ export default function Informacao() {
   }, []);
 
   return (
-    <div className="bg-blue-400 py-20  flex items-center justify-center">
+    <div className="py-15  flex items-center justify-center">
       <div
         className={` transition-all duration-[1000ms] ease-in-out ${
           fade ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
