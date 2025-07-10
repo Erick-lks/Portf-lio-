@@ -42,18 +42,19 @@ export default function Informacao() {
   }, []);
 
   return (
-    <div className="py-15  flex items-center justify-center">
-      <div
+    <div className="py-28  flex items-center justify-center">
+      <section
+        id="informacao"
         className={` transition-all duration-[1000ms] ease-in-out ${
           fade ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
-        }`}
+        } scroll-mt-30`}
       >
         <Card
           imageUrl={cardsData[index].imageUrl}
           title={cardsData[index].title}
           description={cardsData[index].description}
         />
-      </div>
+      </section>
     </div>
   );
 }

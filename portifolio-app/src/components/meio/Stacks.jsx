@@ -1,13 +1,14 @@
 export default function Stacks() {
   return (
-    <div className=" min-h-150 p-10">
-      <div className="flex flex-col md:flex-row gap-10 justify-center">
+    <section id="stacks" className="scroll-mt-[80px] py-20">
+      <div className="max-w-8xl mx-auto px-9 flex flex-col md:flex-row gap-10 justify-center">
         {/* Habilidades */}
-        <div className="bg-white w-full md:w-[700px] p-10 rounded-lg shadow-md text-center text-2xl">
-          <h2 className="font-bold mb-4 underline text-3xl">Habilidades</h2>
-          <div className="flex flex-col md:flex-row gap-6 text-left">
+        <div className="bg-white flex-1 p-10 rounded-lg shadow-md text-center text-2xl">
+          <h2 className="font-bold mb-12 underline text-3xl">Habilidades</h2>
+
+          <div className="flex flex-col md:flex-row gap-10 text-left">
             {/* Soft Skills */}
-            <div>
+            <div className="flex-1">
               <h4 className="font-semibold mb-2">Soft Skills</h4>
               <ul className="list-disc list-inside">
                 <li>Comunicação eficaz</li>
@@ -20,7 +21,7 @@ export default function Stacks() {
             </div>
 
             {/* Hard Skills */}
-            <div>
+            <div className="flex-1">
               <h4 className="font-semibold mb-2">Hard Skills</h4>
               <ul className="list-disc list-inside">
                 <li>JavaScript</li>
@@ -37,30 +38,38 @@ export default function Stacks() {
         </div>
 
         {/* Projetos */}
-        <div className="bg-white w-full md:w-[600px] p-10 rounded-lg shadow-md text-center text-2xl">
+        <div className="bg-white flex-1 p-10 rounded-lg shadow-md text-center text-2xl">
           <h3 className="font-bold mb-4 underline text-3xl">PROJETOS</h3>
           <ul className="list-disc list-inside text-left">
             <li>
               <a
                 href="https://gerenciador-de-tarefas-gray.vercel.app/"
-                className="hover:underline cursor-pointer"
+                className="hover:underline cursor-pointer text-blue-600"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Gerenciador de tarefas
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline cursor-pointer">
+              <a
+                href="#"
+                className="hover:underline cursor-pointer text-blue-600"
+              >
                 LINK GITHUB 2
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline cursor-pointer">
+              <a
+                href="#"
+                className="hover:underline cursor-pointer text-blue-600"
+              >
                 LINK GITHUB 3
               </a>
             </li>
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

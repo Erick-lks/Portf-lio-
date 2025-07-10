@@ -19,7 +19,6 @@ export default function Body() {
           <Lottie animationData={animationData} loop={true} />
         </div>
       </div>
-      <section></section>
       <Informacao />
       //
       <Stacks />
