@@ -1,9 +1,9 @@
 import "./App.css";
-import Header from "./components/top/Header";
 import Body from "./components/meio/Body";
 import Footer from "./components/baixo/Footer";
 
 import Particles from "./components/Particles";
+import NavBar from "./components/top/NavBar";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
       </div>
 
       {/* Conteúdo da aplicação por cima */}
-      <Header />
+      <NavBar />
       <Body />
       <Footer />
     </div>

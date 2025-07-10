@@ -7,7 +7,7 @@ export default function Body() {
   return (
     <div className="w-full h-full  text-center">
       <div
-        className=" pt-15
+        className=" pt-28
        text-4xl grid gap-6 font-mono text-white"
       >
         <h2>Bem-vindo ao Meu Portifólio</h2>
@@ -19,7 +19,7 @@ export default function Body() {
           <Lottie animationData={animationData} loop={true} />
         </div>
       </div>
-      *
+      <section></section>
       <Informacao />
       //
       <Stacks />
