@@ -25,7 +25,7 @@ export default function Footer() {
       <section id="contato" className="scroll-mt-70">
         <form
           onSubmit={handleSubmit}
-          className="bg-white shadow-md rounded-lg p-6 ml-130 h-150 w-220"
+          className="bg-amber-50 shadow-md rounded-lg p-6 ml-130 h-150 w-220"
         >
           <h2>Ainda nao Implementado</h2>
           <h2 className="text-2xl font-bold mb-4 text-center">

@@ -1,6 +1,6 @@
 export default function Card({ title, description, imageUrl }) {
   return (
-    <div className="bg-white w-250 pt-10 rounded-lg shadow-md overflow-hidden transform transition duration-500 hover:scale-90 grid place-items-center">
+    <div className="bg-amber-50 w-250 pt-10 rounded-lg shadow-md overflow-hidden transform transition duration-500 hover:scale-90 grid place-items-center">
       {imageUrl ? (
         <img
           src={imageUrl}

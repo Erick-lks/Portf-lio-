@@ -3,7 +3,7 @@ export default function Stacks() {
     <section id="stacks" className="scroll-mt-[80px] py-20">
       <div className="max-w-8xl mx-auto px-9 flex flex-col md:flex-row gap-10 justify-center">
         {/* Habilidades */}
-        <div className="bg-white flex-1 p-10 rounded-lg shadow-md text-center text-2xl">
+        <div className="bg-amber-50 flex-1 p-10 rounded-lg shadow-md text-center text-2xl">
           <h2 className="font-bold mb-12 underline text-3xl">Habilidades</h2>
 
           <div className="flex flex-col md:flex-row gap-10 text-left">
@@ -38,7 +38,7 @@ export default function Stacks() {
         </div>
 
         {/* Projetos */}
-        <div className="bg-white flex-1 p-10 rounded-lg shadow-md text-center text-2xl">
+        <div className="bg-amber-50 flex-1 p-10 rounded-lg shadow-md text-center text-2xl">
           <h3 className="font-bold mb-4 underline text-3xl">PROJETOS</h3>
           <ul className="list-disc list-inside text-left">
             <li>
