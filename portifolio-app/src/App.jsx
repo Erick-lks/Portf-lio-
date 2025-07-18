@@ -4,6 +4,7 @@ import Footer from "./components/baixo/Footer";
 
 import Particles from "./components/Particles";
 import NavBar from "./components/top/NavBar";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
