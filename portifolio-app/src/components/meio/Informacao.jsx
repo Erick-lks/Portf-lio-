@@ -6,21 +6,21 @@ import Formacao from "./Imagens/Formacao.jpg";
 
 const cardsData = [
   {
-    title: "SOBRE MIM!",
+    title: "Apresentação!",
     description:
-      "Olá, sou Erick Caetano! Um desenvolvedor apaixonado por tecnologia baseado em conviver com as novidades da atualidade. Transformo ideias em código e busco constantemente aprender e evoluir na área de desenvolvimento.",
+      "Me chamo Erick sou desenvolvedor full stack com foco em soluções práticas e eficientes. Tenho experiência do back ao front, com paixão por transformar ideias em sistemas funcionais. Curioso por natureza, estou sempre buscando melhorar e aprender. Código limpo, entrega ágil e café forte fazem parte do meu dia. ☕💻",
     imageUrl: Itsme,
   },
   {
-    title: "O QUE FAÇO",
+    title: "Desenvolvimento!",
     description:
-      "Sou um desenvolvedor full-stack com experiência em criar soluções web inovadoras. Minha jornada na programação começou há [X] anos, e desde então venho construindo aplicações que fazem a diferença.",
+      "Atuei no desenvolvimento de soluções full stack, passando por automações com Puppeteer, APIs REST com Node.js e Spring Boot, interfaces em React e aplicações desktop com Electron. Sempre inicio com um planejamento sólido, entendendo bem o problema antes de codar. Também trabalhei com manipulação de arquivos CSV e Excel, garantindo fluxos eficientes e organizados do backend ao frontend.",
     imageUrl: Doing,
   },
   {
-    title: "FORMAÇÃO",
+    title: "Formação!",
     description:
-      "Bacharelado em [Seu Curso] - [Sua Universidade] (20XX-20XX). Certificação em [Tecnologia Relevante].",
+      "Sou formado em Análise e Desenvolvimento de Sistemas, com sólida base em arquitetura de computadores, estrutura de dados, design de software e práticas integradoras. Durante o curso, desenvolvi projetos voltados para BI, segurança da informação e governança de TI. Me destaquei em metodologias ágeis, análise de requisitos e planejamento estratégico, sempre priorizando o bom levantamento antes de iniciar qualquer desenvolvimento.",
     imageUrl: Formacao,
   },
 ];
@@ -35,8 +35,8 @@ export default function Informacao() {
       setTimeout(() => {
         setIndex((prev) => (prev + 1) % cardsData.length);
         setFade(true); // inicia o fade-in
-      }, 1000); // tempo da transição (1s)
-    }, 4000); // tempo total de exibição de cada card (4s)
+      }, 2000); // duração do fade-out (4 segundos)
+    }, 8000); // duração total de exibição do card (12 segundos)
 
     return () => clearInterval(interval);
   }, []);

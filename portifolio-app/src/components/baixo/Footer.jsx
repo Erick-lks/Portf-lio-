@@ -21,12 +21,13 @@ export default function Footer() {
   };
 
   return (
-    <div className="pt-25 pb-18">
+    <div className="pt-25 pb-20">
       <section id="contato" className="scroll-mt-70">
         <form
           onSubmit={handleSubmit}
-          className="bg-white shadow-md rounded-lg p-6 ml-130 h-140 w-200"
+          className="bg-white shadow-md rounded-lg p-6 ml-130 h-150 w-220"
         >
+          <h2>Ainda nao Implementado</h2>
           <h2 className="text-2xl font-bold mb-4 text-center">
             Entre em Contato
           </h2>
@@ -69,6 +70,24 @@ export default function Footer() {
           >
             Enviar
           </button>
+          <div className="flex flex-col space-y-3  p-4 rounded-md w-40">
+            <a
+              href="https://www.linkedin.com/in/erickcaetano/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-600 transition-colors duration-300 font-semibold"
+            >
+              Linkedin
+            </a>
+            <a
+              href="https://github.com/Erick-lks/Portf-lio-"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-600 transition-colors duration-300 font-semibold"
+            >
+              GitHub
+            </a>
+          </div>
         </form>
       </section>
     </div>
